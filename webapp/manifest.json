@@ -12,6 +12,13 @@
         "resources": "resources.json",
         "ach": "ach",
         "dataSources": {
+            "HANA": {
+                "uri": "/BKSHOP_HANA/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "4.0"
+                }
+            },
             "mainService": {
                 "uri": "/V2/Northwind/Northwind.svc/",
                 "type": "OData",
